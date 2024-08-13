@@ -3,6 +3,8 @@ document.addEventListener('DOMContentLoaded', function() {
     const overlay = document.createElement('div');
     const overlayImage = document.createElement('img');
     const closeButton = document.createElement('span');
+    const menuIcon = document.querySelector('.menu-icon');
+    const navLinks = document.querySelector('.nav-links');
 
     overlay.classList.add('overlay');
     closeButton.classList.add('close-btn');
@@ -36,5 +38,10 @@ document.addEventListener('DOMContentLoaded', function() {
         if (event.key === 'Escape') {
             overlay.style.display = 'none';
         }
+    });
+
+    // Toggle navigation links for hamburger menu
+    menuIcon.addEventListener('click', function() {
+        navLinks.classList.toggle('active');
     });
 });
