@@ -94,7 +94,7 @@ nav ul li a:hover {
     list-style: none;
     margin: 0;
     padding: 0;
-    background-color: rgba(0, 0, 0, 0.5); /* Match the nav bar background color */
+/*    background-color: rgba(0, 0, 0, 0.5); /* Match the nav bar background color */
 }
 
 @media screen and (max-width: 768px) {
