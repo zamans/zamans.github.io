@@ -3378,9 +3378,9 @@ input, select, textarea {
 		#wrapper .copyright {
 			color: rgba(0, 0, 0, 0.25);
 			font-size: 1rem;
-			left: 50vw;
+			left: 0;
 			position: relative;
-			width: 50vw;
+			width: 40vw;
 		}
 
 			#wrapper .copyright a {
@@ -3451,7 +3451,7 @@ input, select, textarea {
 		}
 
 		#wrapper .copyright {
-			padding: 0 5rem;
+			padding: 0 1rem;
 		}
 
 		@media screen and (max-width: 1280px) {
@@ -3528,7 +3528,7 @@ input, select, textarea {
 				}
 
 				#wrapper .copyright {
-					padding: 0 4rem;
+					padding: 0 1rem;
 				}
 
 		}
